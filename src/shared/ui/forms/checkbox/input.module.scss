@@ -1,0 +1,23 @@
+.checkbox {
+    &[data-variant="default"] {
+        div {
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+
+            input {
+                height: 25px;
+                width: 25px;
+                background: none;
+                color: var(--color-white);
+            }
+
+            label {
+                font-size: 16px;
+                font-weight: 400;
+                color: var(--color-white);
+            }
+        }
+    }
+}

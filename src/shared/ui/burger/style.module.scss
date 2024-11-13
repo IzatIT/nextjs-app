@@ -1,0 +1,17 @@
+.burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+
+    &[data-variant="header-menu"] {
+        background: var(--color-header-bg);
+        color: var(--color-text);
+    }
+
+    &[data-variant="default"] {
+        background: var(--color-default-bg);
+    }
+}

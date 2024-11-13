@@ -1,0 +1,31 @@
+.control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+    border-radius: 8px;
+    transition: background-color 150ms ease;
+    min-width: 140px !important;
+    color: var(--color-white);
+    @mixin hover {
+      background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
+    }
+  }
+  
+  .label {
+    font-size: var(--mantine-font-size-sm);
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    width: fit-content;
+    text-wrap: nowrap;
+  }
+  
+  .icon {
+    transition: transform 150ms ease;
+    transform: rotate(0deg);
+  
+    [data-expanded] & {
+      transform: rotate(180deg);
+    }
+  }

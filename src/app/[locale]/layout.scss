@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+.mantine-Select-option {
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+.mantine-DateInput-day {
+  &[variant="default"] {
+    &:hover {
+      background: none;
+    }
+  }
+}
+.mantine-Paper-root {
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.07);
+}
+
+.mantine-Card-root {
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.07);
+}
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}

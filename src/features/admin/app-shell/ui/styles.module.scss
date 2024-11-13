@@ -1,0 +1,45 @@
+.header{
+    background: linear-gradient(210deg, rgb(4, 91, 126) -15.1%, rgb(23, 25, 95) 71.5%);   
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    border-bottom: none;
+    .header_box{
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px 0 7px;
+        .header_title{
+            font-size: 26px;
+        }
+    }
+}
+
+.navbar{
+    transition: 600ms;
+    background: linear-gradient(45deg, rgb(4, 91, 126) -15.1%, rgb(23, 25, 95) 71.5%);   
+    padding: 16px 0 ;
+    color: white;
+    border-right: 1px solid rgba(255,255,255, 0.5);
+}
+.footer{
+    background: linear-gradient(210deg, rgb(4, 91, 126) -15.1%, rgb(23, 25, 95) 71.5%);   
+}
+.page_list_item{
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    transition: 300ms;
+    color: rgba(255,255,255, 0.7);
+    padding: 6px 20px;
+    &:hover{
+        background: rgba(255, 255, 255, 0.041);
+    }
+    &[data-active="true"]{
+        color: rgba(255,255,255, 1);
+    }
+
+}
